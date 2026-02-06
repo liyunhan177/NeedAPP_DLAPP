@@ -1,4 +1,5 @@
-
+from lib.page.music import Music as music
+from lib.page.video import Video as video
 import tkinter as tk
 
 class Main(tk.Tk):
@@ -7,7 +8,7 @@ class Main(tk.Tk):
         self.title("常用软件下载")
         self.geometry("300x300")
         self.resizable(False, False)
-        self.iconbitmap(r'..\res\IMG\DL.png')
+        self.iconbitmap(r"..\res\IMG\logo.ico")
 
 if __name__ == '__main__':
     app = Main()
