@@ -1,6 +1,4 @@
-from lib.page.music import Music as music
-from lib.page.video import Video as video
-from lib.page.input import Input as input
+import lib
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 import tkinter as tk
@@ -14,15 +12,15 @@ class Main(tk.Tk):
         self.iconbitmap(r"..\res\IMG\logo.ico")
 
         def music_open():
-            music_win = music()
+            music_win = lib.music_page()
             music_win.mainloop()
 
         def video_open():
-            video_win = video()
+            video_win = lib.video_page()
             video_win.mainloop()
 
         def input_open():
-            input_win = input()
+            input_win = lib.input_page()
             input_win.mainloop()
 
         music_app = ttk.Button(self,
@@ -30,7 +28,7 @@ class Main(tk.Tk):
                                command=music_open,
                                bootstyle="outline",
                                width=13)
-        music_app.grid(row=0, column=0, pady=10)
+        music_app.grid(row=0, column=0, pady=10,  padx=5)
 
         video_app = ttk.Button(self,
                                 text="视频软件",
