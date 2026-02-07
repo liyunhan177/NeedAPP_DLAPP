@@ -9,7 +9,7 @@ class Input(tk.Toplevel):
         self.title("输入法下载")
         self.geometry("300x300")
         self.resizable(False, False)
-        self.iconbitmap(r"..\res\IMG\logo.ico")
+        self.iconbitmap(r"res\IMG\logo.ico")
 
 if __name__ == '__main__':
     input = Input()

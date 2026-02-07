@@ -9,7 +9,7 @@ class Main(tk.Tk):
         self.title("常用软件下载")
         self.geometry("400x300")
         self.resizable(False, False)
-        self.iconbitmap(r"..\res\IMG\logo.ico")
+        self.iconbitmap(r"res\IMG\logo.ico")
 
         def music_open():
             music_win = lib.music_page()
