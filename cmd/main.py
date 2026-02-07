@@ -20,7 +20,5 @@ class Cmd_ver():
         if start == "":
             os.system("python ./src/main_page.py")
 
-
-
 if __name__ == '__main__':
     Cmd_ver()

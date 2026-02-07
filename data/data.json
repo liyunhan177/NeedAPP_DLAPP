@@ -1,13 +1,16 @@
 {
   "wechat": {
+    "num": "1.",
     "title": "微信",
     "url": "https://mp.weixin.qq.com/"
   },
-  "github": {
-    "title": "Github",
-    "url": "https://github.com/"
+  "Tim": {
+    "num": "2.",
+    "title": "Tim",
+    "url": "https://tim.qq.com/"
   },
   "QQ": {
+    "num": "3.",
     "title": "QQ",
     "url": "https://im.qq.com/index/#/"
   }
