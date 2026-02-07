@@ -1,0 +1,14 @@
+{
+  "wechat": {
+    "title": "微信",
+    "url": "https://mp.weixin.qq.com/"
+  },
+  "github": {
+    "title": "Github",
+    "url": "https://github.com/"
+  },
+  "QQ": {
+    "title": "QQ",
+    "url": "https://im.qq.com/index/#/"
+  }
+}
