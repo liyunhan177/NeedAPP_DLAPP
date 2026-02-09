@@ -1,7 +1,10 @@
-import lib
+import sys, pathlib
+import lib as lib
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 import tkinter as tk
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
 class Main(tk.Tk):
     def __init__ (self):
@@ -9,7 +12,12 @@ class Main(tk.Tk):
         self.title("常用软件下载")
         self.geometry("400x300")
         self.resizable(False, False)
-        self.iconbitmap(r"res\IMG\logo.ico")
+        
+        icon_path = pathlib.Path(__file__).resolve().parents[1] / "res" / "IMG" / "logo.ico"
+        try:
+            self.iconbitmap(str(icon_path))
+        except Exception:
+            pass
 
         def music_open():
             music_win = lib.music_page()

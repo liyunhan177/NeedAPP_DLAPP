@@ -18,7 +18,7 @@ class Cmd_ver():
         start = input("按回车键继续...")
 
         if start == "":
-            os.system("python ./src/main_page.py")
+            os.system("python main_page.py")
 
 if __name__ == '__main__':
     Cmd_ver()
