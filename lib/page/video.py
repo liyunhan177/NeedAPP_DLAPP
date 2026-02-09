@@ -9,7 +9,14 @@ class Video(tk.Toplevel):
         self.title("视频软件下载")
         self.geometry("300x300")
         self.resizable(False, False)
-        self.iconbitmap(r"res\IMG\logo.ico")
+        # 设置图标路径
+        import os
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        icon_path = os.path.join(project_root, "res", "IMG", "logo.ico")
+        if os.path.exists(icon_path):
+            self.iconbitmap(icon_path)
+        else:
+            print(f"警告: 图标文件不存在 {icon_path}")
 
 if __name__ == '__main__':
     video = Video()

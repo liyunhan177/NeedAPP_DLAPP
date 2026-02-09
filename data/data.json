@@ -1,17 +1,17 @@
 {
-  "wechat": {
-    "num": "1.",
-    "title": "微信",
-    "url": "https://mp.weixin.qq.com/"
-  },
-  "Tim": {
-    "num": "2.",
-    "title": "Tim",
-    "url": "https://tim.qq.com/"
-  },
-  "QQ": {
-    "num": "3.",
-    "title": "QQ",
-    "url": "https://im.qq.com/index/#/"
-  }
+    "wechat": {
+        "num": 1,
+        "title": "微信",
+        "url": "https://weixin.qq.com/"
+    },
+    "tim": {
+        "num": 2,
+        "title": "Tim",
+        "url": "https://tim.qq.com/"
+    },
+    "qq": {
+        "num": 3,
+        "title": "QQ",
+        "url": "https://im.qq.com/"
+    }
 }
