@@ -32,10 +32,10 @@ class Main(tk.Tk):
             input_win.mainloop()
 
         music_app = ttk.Button(self,
-                               text="音乐软件",
-                               command=music_open,
-                               bootstyle="outline",
-                               width=13)
+                                text="音乐软件",
+                                command=music_open,
+                                bootstyle="outline",
+                                width=13)
         music_app.grid(row=0, column=0, pady=10,  padx=5)
 
         video_app = ttk.Button(self,
