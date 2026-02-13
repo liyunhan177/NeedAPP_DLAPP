@@ -31,6 +31,14 @@ class Main(tk.Tk):
             input_win = lib.input_page()
             input_win.mainloop()
 
+        def browser_open():
+            browser_win = lib.browser_page()
+            browser_win.mainloop()
+
+        def media_open():
+            media_win = lib.media_page()
+            media_win.mainloop()
+
         music_app = ttk.Button(self,
                                 text="音乐软件",
                                 command=music_open,
@@ -51,6 +59,20 @@ class Main(tk.Tk):
                                 bootstyle="outline",
                                 width=13)
         input_app.grid(row=2, column=0, pady=10)
+
+        browser_app = ttk.Button(self,
+                                text="浏览器",
+                                command=browser_open,
+                                bootstyle="outline",
+                                width=13)
+        browser_app.grid(row=3, column=0)
+
+        media_app = ttk.Button(self,
+                                text="媒体播放器",
+                                command=media_open,
+                                bootstyle="outline",
+                                width=13)
+        media_app.grid(row=4, column=0, pady=10)
 
 if __name__ == '__main__':
     app = Main()
