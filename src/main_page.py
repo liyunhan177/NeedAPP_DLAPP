@@ -10,7 +10,7 @@ class Main(tk.Tk):
     def __init__ (self):
         tk.Tk.__init__(self)
         self.title("常用软件下载")
-        self.geometry("400x300")
+        self.geometry("300x260")
         self.resizable(False, False)
         
         icon_path = pathlib.Path(__file__).resolve().parents[1] / "res" / "IMG" / "logo.ico"
@@ -43,36 +43,43 @@ class Main(tk.Tk):
                                 text="音乐软件",
                                 command=music_open,
                                 bootstyle="outline",
-                                width=13)
+                                width=38)
         music_app.grid(row=0, column=0, pady=10,  padx=5)
 
         video_app = ttk.Button(self,
                                 text="视频软件",
                                 command=video_open,
                                 bootstyle="outline",
-                                width=13)
+                                width=38)
         video_app.grid(row=1, column=0)
 
         input_app = ttk.Button(self,
                                 text="输入法",
                                 command=input_open,
                                 bootstyle="outline",
-                                width=13)
+                                width=38)
         input_app.grid(row=2, column=0, pady=10)
 
         browser_app = ttk.Button(self,
                                 text="浏览器",
                                 command=browser_open,
                                 bootstyle="outline",
-                                width=13)
+                                width=38)
         browser_app.grid(row=3, column=0)
 
         media_app = ttk.Button(self,
                                 text="媒体播放器",
                                 command=media_open,
                                 bootstyle="outline",
-                                width=13)
+                                width=38)
         media_app.grid(row=4, column=0, pady=10)
+
+        exit = ttk.Button(self,
+                                text="退出",
+                                command=self.destroy,
+                                bootstyle="danger-outline",
+                                width=38)
+        exit.grid(row=5, column=0)
 
 if __name__ == '__main__':
     app = Main()
