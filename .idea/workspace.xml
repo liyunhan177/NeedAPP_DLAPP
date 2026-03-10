@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/cmd_ver/src/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/src/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd_ver_start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/media.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/C/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/C/test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CS/test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Cpp/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Cpp/test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmd_ver/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/src/main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +147,7 @@
       <workItem from="1771572891008" duration="447000" />
       <workItem from="1771860311684" duration="22000" />
       <workItem from="1772003470851" duration="5000" />
-      <workItem from="1773153915954" duration="1516000" />
+      <workItem from="1773153915954" duration="1671000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -321,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771511476877</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="test">
+      <option name="closed" value="true" />
+      <created>1773155449839</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1773155449839</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
