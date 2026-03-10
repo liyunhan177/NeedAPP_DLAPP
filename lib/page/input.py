@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
+import os
 
 class Input(tk.Toplevel):
     def __init__(self):
@@ -9,8 +10,7 @@ class Input(tk.Toplevel):
         self.title("输入法下载")
         self.geometry("300x300")
         self.resizable(False, False)
-        # 设置图标路径
-        import os
+
         project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         icon_path = os.path.join(project_root, "res", "IMG", "logo.ico")
         if os.path.exists(icon_path):

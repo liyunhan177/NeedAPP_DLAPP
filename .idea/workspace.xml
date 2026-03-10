@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/NeedAPP_DLAPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NeedAPP_DLAPP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_ver/src/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd_ver/src/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd_ver_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/page/media.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/C/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/C/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CS/test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Cpp/test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Cpp/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +75,38 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.cmd_ver.executor&quot;: &quot;Run&quot;,
-    &quot;Python.input.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.music.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wifi_detection.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.GoLinterPluginOnboardingV2&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.analysis.ui.options.defaults&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/PYTHON/NeedAPP_DLAPP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.cmd_ver.executor": "Run",
+    "Python.cmd_ver_start.executor": "Run",
+    "Python.input.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_page.executor": "Run",
+    "Python.music.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.wifi_detection.executor": "Run",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.analysis.ui.options.defaults": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/Programming/PYTHON/NeedAPP_DLAPP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\编程\AAA PYTHON\NeedAPP_DLAPP\docs\md" />
@@ -103,6 +115,7 @@
       <recent name="D:\编程\AAA PYTHON\NeedAPP_DLAPP\res\sound" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\PYTHON\NeedAPP_DLAPP\src" />
       <recent name="D:\编程\AAA PYTHON\NeedAPP_DLAPP\cmd\src" />
       <recent name="D:\编程\AAA PYTHON\NeedAPP_DLAPP\docs" />
       <recent name="D:\编程\AAA PYTHON\NeedAPP_DLAPP\res\IMG" />
@@ -142,7 +155,11 @@
       <workItem from="1770909706456" duration="207000" />
       <workItem from="1770993159917" duration="391000" />
       <workItem from="1771410841886" duration="348000" />
-      <workItem from="1771511170239" duration="294000" />
+      <workItem from="1771511170239" duration="1301000" />
+      <workItem from="1771572891008" duration="447000" />
+      <workItem from="1771860311684" duration="22000" />
+      <workItem from="1772003470851" duration="5000" />
+      <workItem from="1773153915954" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -296,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770636775745</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test">
+      <option name="closed" value="true" />
+      <created>1771511476877</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771511476877</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,9 +360,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$test.coverage" NAME="test 覆盖结果" MODIFIED="1770445197036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$cmd_ver.coverage" NAME="cmd_ver 覆盖结果" MODIFIED="1770455986282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmd" />
-    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main.coverage" NAME="main 覆盖结果" MODIFIED="1770560512011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmd/src" />
+    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main.coverage" NAME="main 覆盖结果" MODIFIED="1773155403506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cmd_ver/src" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$music.coverage" NAME="music 覆盖结果" MODIFIED="1770387839231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/page" />
-    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main_page.coverage" NAME="main_page 覆盖结果" MODIFIED="1770628664117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main_page.coverage" NAME="main_page 覆盖结果" MODIFIED="1773154794284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cmd_ver/src" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$wifi_detection.coverage" NAME="wifi_detection 覆盖结果" MODIFIED="1770439246523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/package" />
+    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$cmd_ver_start.coverage" NAME="cmd_ver_start 覆盖结果" MODIFIED="1773154910371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
