@@ -1,5 +1,5 @@
-# <center>NeedAPP_DLAPP </center>
-#### <center>一个下载常用软件的项目</center>
+# NeedAPP_DLAPP 
+#### 一个下载常用软件的项目
 
 __赤石警告⚠️ 本项目仅为学习交流使用，语法欠佳，不建议日常使用
 （赤到石了其实是）本人仅是一名学生qwq__
