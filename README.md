@@ -1,10 +1,9 @@
 # NeedAPP_DLAPP 
  
 [![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)](https://github.com/username/repo)
-[![Gitee Stars](https://gitee.com/username/repo/badge/star.svg?theme=white)](https://gitee.com/username/repo)
  
 一个常用软件及工具下载器
-__注：目前正处于早期开发阶段，作者编程水平欠佳，望理解！__
+#### __注：目前正处于早期开发阶段，作者编程水平欠佳，望理解！__
  
 ## 目录
 
