@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="in this version, this project is become public and don't have any new features.">
+    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="changed READE.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -148,7 +148,8 @@
       <workItem from="1771860311684" duration="22000" />
       <workItem from="1772003470851" duration="5000" />
       <workItem from="1773153915954" duration="1702000" />
-      <workItem from="1773399364035" duration="4391000" />
+      <workItem from="1773399364035" duration="6101000" />
+      <workItem from="1773430351898" duration="4441000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -334,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773403468755</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed READE.md">
+      <option name="closed" value="true" />
+      <created>1773405290453</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1773405290453</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changed READE.md">
+      <option name="closed" value="true" />
+      <created>1773405342766</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1773405342766</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +385,8 @@
     <MESSAGE value="beta 1.0" />
     <MESSAGE value="test" />
     <MESSAGE value="in this version, this project is become public and don't have any new features." />
-    <option name="LAST_COMMIT_MESSAGE" value="in this version, this project is become public and don't have any new features." />
+    <MESSAGE value="changed READE.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed READE.md" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
