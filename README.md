@@ -1,6 +1,14 @@
 # NeedAPP_DLAPP 
-#### 一个下载常用软件的项目
-
-__赤石警告⚠️ 本项目仅为学习交流使用，语法欠佳，不建议日常使用
-（赤到石了其实是）本人仅是一名学生qwq__
+ 
+[![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)](https://github.com/username/repo)
+[![Gitee Stars](https://gitee.com/username/repo/badge/star.svg?theme=white)](https://gitee.com/username/repo)
+ 
+一个常用软件及工具下载器
+注：目前正处于早期开发阶段，作者编程水平欠佳，望理解！
+ 
+## ✨ 特性
+## 🚀 快速开始
+## 📦 安装
+## 🛠 使用指南
+## 🤝 参与贡献
 
