@@ -4,7 +4,7 @@
 [![Gitee Stars](https://gitee.com/username/repo/badge/star.svg?theme=white)](https://gitee.com/username/repo)
  
 一个常用软件及工具下载器
-注：目前正处于早期开发阶段，作者编程水平欠佳，望理解！
+__注：目前正处于早期开发阶段，作者编程水平欠佳，望理解！__
  
 ## 目录
 
