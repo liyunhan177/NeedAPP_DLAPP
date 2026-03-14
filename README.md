@@ -10,8 +10,6 @@
     <img alt="" src="https://img.shields.io/badge/version-0.2.0-yellow">
 </p>
 
-[English](docs/README.en.md) [中文](docs/README.zh.md)  
-
 ## 目录
 
 - [🚀 快速开始](#快速开始)
@@ -37,10 +35,12 @@ NeedAPP_DLAPP
 ├─ res
 │  ├─ sound
 │  │  └─ test_sound.mp3
-│  └─ IMG
+│  └─ IMG  
 │     ├─ DL.png
 │     ├─ logo.ico
-│     └─ test_img.jpg
+│     ├─ test_img.jpg
+│     └─ UI
+         └─ main_page.png
 ├─ lib
 │  ├─ __init__.py
 │  ├─ page
@@ -74,6 +74,24 @@ python src/main_page.py
 
 ###  功能介绍
 #### __该项目旨在提供一个方便快捷的软件下载器，用户可以通过图形界面选择需要下载的软件类型,并直接从官方网站进行下载。后续将会开发本地安装包下载功能__
+
+###  使用方法
+1. 运行项目
+2. 选择需要下载的软件类型
+3. 点击打开官网，访问软件官网
+4. 在项目软件中直接下载软件（未来将开发）
+
+### 界面展示
+<img src="res/IMG/UI/main_page.png" alt="主界面" width="188.5" height="207.5">
+
+###  项目结构
+#### 1. 主程序入口
+- `main_page.py`: 负责启动整个应用程序，并加载主界面。
+#### 2. 数据存储
+- `data.json`: 用于存储软件的下载链接和其他相关信息(后续将转为数据库形式存储)
+#### 3. 资源文件夹
+- `sound`, `IMG`: 存放音频、图像等资源文件。
+
 ##  参与贡献
 #### __欢迎提交 Issue 和 Pull Request 来改进这个项目！__
 ##  未来规划

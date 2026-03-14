@@ -1,17 +1,194 @@
 {
-    "wechat": {
-        "num": 1,
-        "title": "微信",
-        "url": "https://weixin.qq.com/"
+    "chat": {
+        "wechat": {
+            "num": 1,
+            "title": "微信",
+            "url": "https://weixin.qq.com/"
+        },
+        "tim": {
+            "num": 2,
+            "title": "Tim",
+            "url": "https://tim.qq.com/"
+        },
+        "qq": {
+            "num": 3,
+            "title": "QQ",
+            "url": "https://im.qq.com/"
+        },
+        "dingtalk": {
+            "num": 4,
+            "title": "钉钉",
+            "url": "https://www.dingtalk.com/"
+        },
+        "feishu": {
+            "num": 5,
+            "title": "飞书",
+            "url": "https://www.feishu.cn/"
+        },
+        "qq_freestyle": {
+            "num": 6,
+            "title": "QQ 自由版",
+            "url": "https://qqlite.qq.com/"
+        }
     },
-    "tim": {
-        "num": 2,
-        "title": "Tim",
-        "url": "https://tim.qq.com/"
+    "browser": {
+        "edge": {
+            "num": 1,
+            "title": "Edge",
+            "url": "https://www.microsoft.com/zh-cn/edge/download?form=MA13FJ"
+        },
+        "chrome": {
+            "num": 2,
+            "title": "Chrome",
+            "url": "https://www.google.cn/chrome/"
+        },
+        "360_security": {
+            "num": 3,
+            "title": "360 安全浏览器",
+            "url": "https://browser.360.cn/ee/security/"
+        },
+        "360_extreme": {
+            "num": 4,
+            "title": "360 极速浏览器",
+            "url": "https://browser.360.cn/ee/velocity/"
+        },
+        "qq_browser": {
+            "num": 5,
+            "title": "QQ 浏览器",
+            "url": "https://browser.qq.com/"
+        },
+        "firefox": {
+            "num": 6,
+            "title": "Firefox",
+            "url": "https://www.firefox.com.cn/"
+        }
     },
-    "qq": {
-        "num": 3,
-        "title": "QQ",
-        "url": "https://im.qq.com/"
+    "input": {
+        "sogou": {
+            "num": 1,
+            "title": "搜狗输入法",
+            "url": "https://pinyin.sogou.com/"
+        },
+        "baidu": {
+            "num": 2,
+            "title": "百度输入法",
+            "url": "https://srf.baidu.com/input/"
+        },
+        "qq_input": {
+            "num": 3,
+            "title": "QQ 输入法",
+            "url": "https://pc.qq.com/detail/11/detail_20811.html"
+        },
+        "讯飞": {
+            "num": 4,
+            "title": "讯飞输入法",
+            "url": "https://ifly.baidu.com/"
+        },
+        "rime": {
+            "num": 5,
+            "title": "小狼毫 (Rime)",
+            "url": "https://rime.im/"
+        },
+        "microsoft_pinyin": {
+            "num": 6,
+            "title": "微软拼音",
+            "url": "https://www.microsoft.com/zh-cn/windows/"
+        }
+    },
+    "music": {
+        "qq_music": {
+            "num": 1,
+            "title": "QQ 音乐",
+            "url": "https://y.qq.com/"
+        },
+        "netease_cloud": {
+            "num": 2,
+            "title": "网易云音乐",
+            "url": "https://music.163.com/"
+        },
+        "kugou": {
+            "num": 3,
+            "title": "酷狗音乐",
+            "url": "https://www.kugou.com/"
+        },
+        "kuwo": {
+            "num": 4,
+            "title": "酷我音乐",
+            "url": "http://www.kuwo.cn/"
+        },
+        "migu_music": {
+            "num": 5,
+            "title": "咪咕音乐",
+            "url": "https://music.migu.cn/"
+        },
+        "qianqian": {
+            "num": 6,
+            "title": "千千音乐",
+            "url": "https://music.taihe.com/"
+        }
+    },
+    "video": {
+        "potplayer": {
+            "num": 1,
+            "title": "PotPlayer",
+            "url": "https://potplayer.daum.net/"
+        },
+        "vlc": {
+            "num": 2,
+            "title": "VLC",
+            "url": "https://www.videolan.org/vlc/"
+        },
+        "kmplayer": {
+            "num": 3,
+            "title": "KMPlayer",
+            "url": "https://www.kmplayer.com/"
+        },
+        "storm_player": {
+            "num": 4,
+            "title": "暴风影音",
+            "url": "http://www.baofeng.com/"
+        },
+        "qq_video": {
+            "num": 5,
+            "title": "腾讯视频客户端",
+            "url": "https://v.qq.com/"
+        },
+        "iqiyi": {
+            "num": 6,
+            "title": "爱奇艺客户端",
+            "url": "https://www.iqiyi.com/"
+        }
+    },
+    "media": {
+        "format_factory": {
+            "num": 1,
+            "title": "格式工厂",
+            "url": "http://www.pcfreetime.com/"
+        },
+        "handbrake": {
+            "num": 2,
+            "title": "HandBrake",
+            "url": "https://handbrake.fr/"
+        },
+        "shanaencoder": {
+            "num": 3,
+            "title": "小丸工具箱",
+            "url": "https://github.com/maboribin/ShanaEncoder"
+        },
+        "adobe_media": {
+            "num": 4,
+            "title": "Adobe Media Encoder",
+            "url": "https://www.adobe.com/products/media-encoder.html"
+        },
+        "xmedia_recode": {
+            "num": 5,
+            "title": "XMedia Recode",
+            "url": "http://www.xmedia-recode.com/"
+        },
+        "ffmpeg": {
+            "num": 6,
+            "title": "FFmpeg",
+            "url": "https://ffmpeg.org/"
+        }
     }
 }

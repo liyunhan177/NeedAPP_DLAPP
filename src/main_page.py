@@ -10,7 +10,7 @@ class Main(tk.Tk):
     def __init__ (self):
         tk.Tk.__init__(self)
         self.title("常用软件下载")
-        self.geometry("300x260")
+        self.geometry("300x300")
         self.resizable(False, False)
         
         icon_path = pathlib.Path(__file__).resolve().parents[1] / "res" / "IMG" / "logo.ico"
@@ -38,6 +38,10 @@ class Main(tk.Tk):
         def media_open():
             media_win = lib.media_page()
             media_win.mainloop()
+
+        def chat_open():
+            chat_win = lib.chat_page()
+            chat_win.mainloop()
 
         music_app = ttk.Button(self,
                                 text="音乐软件",
@@ -74,12 +78,19 @@ class Main(tk.Tk):
                                 width=38)
         media_app.grid(row=4, column=0, pady=10)
 
-        exit = ttk.Button(self,
-                                text="退出",
-                                command=self.destroy,
-                                bootstyle="danger-outline",
-                                width=38)
-        exit.grid(row=5, column=0)
+        chat_app = ttk.Button(self,
+                               text="聊天软件",
+                               command=chat_open,
+                               bootstyle="outline",
+                               width=38)
+        chat_app.grid(row=5, column=0)
+
+        exit_func = ttk.Button(self,
+                               text="退出",
+                               command=self.destroy,
+                               bootstyle="danger-outline",
+                               width=38)
+        exit_func.grid(row=6, column=0, pady=10)
 
 if __name__ == '__main__':
     app = Main()
