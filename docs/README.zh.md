@@ -10,7 +10,7 @@
     <img alt="" src="https://img.shields.io/badge/version-0.2.0-yellow">
 </p>
 
-[English](docs/README.en.md) [中文](docs/README.zh.md)  
+[English](README.en.md) [中文](README.zh.md)  
 
 ## 目录
 
@@ -87,3 +87,4 @@ python src/main_page.py
 ##  特别说明
 #### __作者本人为学生，该项目仅为个人兴趣爱好项目，不保证长期维护。同时语法欠佳，望理解__
 <a href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_backup316">千万别点</a>
+

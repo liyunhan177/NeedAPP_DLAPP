@@ -1,6 +1,6 @@
 
 # NeedAPP_DLAPP
-#### 一个常用软件及工具下载器
+#### A common software and tool downloader
 <p>
     <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dliyunhan177&query=%24.data.totalSubs&suffix=%20followers&label=GitHub&color=262626">
     <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.bilibili.com%2Fx%2Frelation%2Fstat%3Fvmid%3D571556798&query=data.follower&style=flat&logo=bilibili&logoColor=white&label=bilibili%20fans&labelColor=%23F37697">
@@ -10,19 +10,19 @@
     <img alt="" src="https://img.shields.io/badge/version-0.2.0-yellow">
 </p>
 
-[English](docs/README.en.md) [中文](docs/README.zh.md)  
+[English](README.en.md) [中文](README.zh.md)  
 
-## 目录
+## Catalog
 
-- [🚀 快速开始](#快速开始)
-- [📦 安装指南](#安装指南)
-- [🛠 使用指南](#使用指南)
-- [🤝 参与贡献](#参与贡献)
-- [🌠 未来规划](#未来规划)
-- [📝 特别说明](#特别说明)
+- [🚀 Quick Start](#quick-start)
+- [📦 Installation Guide](#installation-guide)
+- [🛠 User Guide](#user-guide)
+- [🤝 Contributing](#contributing)
+- [🌠 Future Roadmap](#future-roadmap)
+- [📝 Special Notes](#special-notes)
 
-##  快速开始
-__项目结构__
+## Quick Start
+__Project Structure__
 ```aiignore
 NeedAPP_DLAPP
 ├─ pyproject.toml
@@ -57,33 +57,34 @@ NeedAPP_DLAPP
 └─ data
    └─ data.json
 ```
-##  安装指南
-### 1. 克隆项目
+## Installation Guide
+### 1. Clone the repository
 ```bash
 git clone https://github.com/liyunhan177/NeedAPP_DLAPP.git
 ```
-### 2. 安装所欲依赖
+### 2. Install dependencies
 ```bash
 pip install pywifi ttkbootstrap
 ```
-### 3. 运行项目
+### 3. Run the project
 ```bash
 python src/main_page.py
 ```
-##  使用指南
+## User Guide
 
-###  功能介绍
-#### __该项目旨在提供一个方便快捷的软件下载器，用户可以通过图形界面选择需要下载的软件类型,并直接从官方网站进行下载。后续将会开发本地安装包下载功能__
-##  参与贡献
-#### __欢迎提交 Issue 和 Pull Request 来改进这个项目！__
-##  未来规划
-- [x] 项目初始化与基础架构搭建
-- [x] 软件类型的罗列
-- [ ] 各个软件的Button控件设计
-- [ ] 软件官网跳转
-- [ ] 实现基本的软件下载功能
-- [ ] 美化界面
-- [ ] 项目打包为exe
-##  特别说明
-#### __作者本人为学生，该项目仅为个人兴趣爱好项目，不保证长期维护。同时语法欠佳，望理解__
-<a href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_backup316">千万别点</a>
+### Feature Introduction
+#### __This project aims to provide a fast and convenient software downloader. Users can select the type of software they want to download through a graphical interface and download it directly from the official website. Local installation package download functionality will be developed in the future.__
+## Contributing
+#### __Issues and Pull Requests are welcome to improve this project!__
+## Future Roadmap
+- [x] Project initialization and infrastructure setup
+- [x] Listing of software types
+- [ ] Button control design for each software
+- [ ] Official website redirect
+- [ ] Implement basic software download functionality
+- [ ] UI beautification
+- [ ] Package the project as an executable
+## Special Notes
+#### __The author is a student, and this project is only a personal hobby project with no guarantee of long-term maintenance. The code quality may not be perfect, please understand.__
+
+
