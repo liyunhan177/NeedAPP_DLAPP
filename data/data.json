@@ -24,11 +24,6 @@
             "num": 5,
             "title": "飞书",
             "url": "https://www.feishu.cn/"
-        },
-        "qq_freestyle": {
-            "num": 6,
-            "title": "QQ 自由版",
-            "url": "https://qqlite.qq.com/"
         }
     },
     "browser": {
@@ -99,32 +94,32 @@
         "qq_music": {
             "num": 1,
             "title": "QQ 音乐",
-            "url": "https://y.qq.com/"
+            "url": "https://y.qq.com/download/index.html"
         },
         "netease_cloud": {
             "num": 2,
             "title": "网易云音乐",
-            "url": "https://music.163.com/"
+            "url": "https://music.163.com/html/download"
         },
         "kugou": {
             "num": 3,
             "title": "酷狗音乐",
-            "url": "https://www.kugou.com/"
+            "url": "https://www.kugou.com/pc/"
         },
         "kuwo": {
             "num": 4,
             "title": "酷我音乐",
-            "url": "http://www.kuwo.cn/"
+            "url": "http://www.kuwo.cn/pc/"
         },
         "migu_music": {
             "num": 5,
             "title": "咪咕音乐",
-            "url": "https://music.migu.cn/"
+            "url": "https://music.migu.cn/v3/static/client/index.html"
         },
         "qianqian": {
             "num": 6,
             "title": "千千音乐",
-            "url": "https://music.taihe.com/"
+            "url": "https://music.taihe.com/client"
         }
     },
     "video": {
@@ -147,48 +142,38 @@
             "num": 4,
             "title": "暴风影音",
             "url": "http://www.baofeng.com/"
-        },
-        "qq_video": {
-            "num": 5,
-            "title": "腾讯视频客户端",
-            "url": "https://v.qq.com/"
-        },
-        "iqiyi": {
-            "num": 6,
-            "title": "爱奇艺客户端",
-            "url": "https://www.iqiyi.com/"
         }
     },
     "media": {
-        "format_factory": {
+        "bilibili": {
             "num": 1,
-            "title": "格式工厂",
-            "url": "http://www.pcfreetime.com/"
+            "title": "哔哩哔哩",
+            "url": "https://app.bilibili.com/"
         },
-        "handbrake": {
+        "douyin": {
             "num": 2,
-            "title": "HandBrake",
-            "url": "https://handbrake.fr/"
+            "title": "抖音",
+            "url": "https://www.douyin.com/download"
         },
-        "shanaencoder": {
+        "qq_video": {
             "num": 3,
-            "title": "小丸工具箱",
-            "url": "https://github.com/maboribin/ShanaEncoder"
+            "title": "腾讯视频",
+            "url": "https://v.qq.com/download/index.html"
         },
-        "adobe_media": {
+        "iqiyi": {
             "num": 4,
-            "title": "Adobe Media Encoder",
-            "url": "https://www.adobe.com/products/media-encoder.html"
+            "title": "爱奇艺",
+            "url": "https://client.iqiyi.com/"
         },
-        "xmedia_recode": {
+        "youku": {
             "num": 5,
-            "title": "XMedia Recode",
-            "url": "http://www.xmedia-recode.com/"
+            "title": "优酷",
+            "url": "https://pc.youku.com/"
         },
-        "ffmpeg": {
+        "migu_video": {
             "num": 6,
-            "title": "FFmpeg",
-            "url": "https://ffmpeg.org/"
+            "title": "咪咕视频",
+            "url": "https://www.miguvideo.com/"
         }
     }
 }
