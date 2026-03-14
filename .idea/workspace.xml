@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="changed READE.md">
-      <change afterPath="$PROJECT_DIR$/lib/page/chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/IMG/UI/main_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.en.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="changed READE.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +157,7 @@
       <workItem from="1773461689799" duration="1906000" />
       <workItem from="1773465249563" duration="160000" />
       <workItem from="1773465490394" duration="370000" />
-      <workItem from="1773467026651" duration="1529000" />
+      <workItem from="1773467026651" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -377,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773435021666</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="changed READE.md">
+      <option name="closed" value="true" />
+      <created>1773468874197</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1773468874197</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +418,7 @@
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$cmd_ver.coverage" NAME="cmd_ver 覆盖结果" MODIFIED="1770455986282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmd" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main.coverage" NAME="main 覆盖结果" MODIFIED="1773155403506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cmd_ver/src" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$music.coverage" NAME="music 覆盖结果" MODIFIED="1770387839231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/page" />
-    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main_page.coverage" NAME="main_page 覆盖结果" MODIFIED="1773468563860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$main_page.coverage" NAME="main_page 覆盖结果" MODIFIED="1773468743567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$wifi_detection.coverage" NAME="wifi_detection 覆盖结果" MODIFIED="1770439246523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/package" />
     <SUITE FILE_PATH="coverage/NeedAPP_DLAPP$cmd_ver_start.coverage" NAME="cmd_ver_start 覆盖结果" MODIFIED="1773154910371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

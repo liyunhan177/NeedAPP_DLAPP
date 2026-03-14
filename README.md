@@ -82,7 +82,7 @@ python src/main_page.py
 4. 在项目软件中直接下载软件（未来将开发）
 
 ### 界面展示
-<img src="res/IMG/UI/main_page.png" alt="主界面" width="188.5" height="207.5">
+![用户界面](res/IMG/UI/main_page.png "用户界面演示")
 
 ###  项目结构
 #### 1. 主程序入口
