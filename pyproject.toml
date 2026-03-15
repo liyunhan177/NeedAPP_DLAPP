@@ -1,7 +1,8 @@
 [project]
 name = "NeedAPP_DLAPP"
-version = "0.2.0"
+version = "0.2.2"
 description = [
     "pywifi",
     "ttkbootstrap",
+    "logging"
 ]

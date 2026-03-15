@@ -1,11 +1,13 @@
 # 从 page 目录导入所有页面模块
-from .page import input, music, video, nowifi, browser, media, chat
+from .page import input, music, video, browser, media, chat
 # 从 package 目录导入 WiFi 检测模块
 from .package import wifi_detection
+# 导入日志模块
+from .package import logger
 
 # 定义模块的公共接口，导出所有页面和工具模块
 __all__ = ["input", "music", "video",
-           "wifi_detection","browser", "media", "chat"]
+           "wifi_detection","browser", "media", "chat", "logger"]
 
 # 为各个页面类创建别名，方便外部调用
 music_page = music.Music  # 音乐软件页面类
@@ -15,6 +17,8 @@ browser_page = browser.Browser  # 浏览器页面类
 media_page = media.Media  # 媒体播放器页面类
 chat_page = chat.Chat  # 聊天软件页面类
 wifi_det = wifi_detection.check_wifi_status  # WiFi 状态检测函数
+get_logger = logger.get_default_logger  # 获取日志记录器
+setup_logger = logger.setup_logger  # 配置日志记录器
 
 __version__ = "0.0.1"  # 库版本号
 __author__ = "liyunhan177"  # 作者名

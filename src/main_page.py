@@ -4,7 +4,10 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from tkinter import messagebox
 import tkinter as tk
-import pywifi
+import logging
+
+# 初始化日志记录器
+logger = lib.setup_logger("NeedAPP_DLAPP", logging.INFO)
 
 # 将项目根目录添加到系统路径，以便正确导入模块
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
@@ -27,7 +30,7 @@ class Main(tk.Tk):
             self.iconbitmap(str(icon_path))
         except Exception:
             pass  # 如果图标加载失败，不显示错误，继续执行
-        
+
         # 启动时检测网络状态（WiFi 和以太网）
         self.check_network_on_startup()
 
@@ -136,20 +139,20 @@ class Main(tk.Tk):
                 self.destroy()
                 sys.exit(0)
             else:
-                # 至少有一种网络已连接 - 显示主界面，打印网络状态信息
-                print("=== 网络连接状态 ===")
-                print(f"WiFi: {network_info['wifi']['message']}")
-                print(f"以太网：{network_info['ethernet']['message']}")
+                # 至少有一种网络已连接 - 显示主界面，记录网络状态信息
+                logger.info("=== 网络连接状态 ===")
+                logger.info(f"WiFi: {network_info['wifi']['message']}")
+                logger.info(f"以太网：{network_info['ethernet']['message']}")
                 if network_info['wifi']['info']:
-                    print(f"WiFi SSID: {network_info['wifi']['info'].get('ssid', 'N/A')}")
-                    print(f"WiFi 信号强度：{network_info['wifi']['info'].get('signal', 'N/A')} dBm")
+                    logger.info(f"WiFi SSID: {network_info['wifi']['info'].get('ssid', 'N/A')}")
+                    logger.info(f"WiFi 信号强度：{network_info['wifi']['info'].get('signal', 'N/A')} dBm")
                 if network_info['ethernet']['info']:
-                    print(f"以太网 IP: {network_info['ethernet']['info'].get('ip', 'N/A')}")
-                print("\n✓ 网络已连接，正在启动应用...")
+                    logger.info(f"以太网 IP: {network_info['ethernet']['info'].get('ip', 'N/A')}")
+                logger.info("\n✓ 网络已连接，正在启动应用...")
         except Exception as e:
             # 检测出错时仍然允许应用启动，记录错误信息
-            print(f"网络检测出错：{str(e)}")
-            print("继续启动应用...")
+            logger.error(f"网络检测出错：{str(e)}")
+            logger.warning("继续启动应用...")
 
 if __name__ == '__main__':
     app = Main()

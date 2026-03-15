@@ -40,7 +40,7 @@ NeedAPP_DLAPP
 │     ├─ logo.ico
 │     ├─ test_img.jpg
 │     └─ UI
-         └─ main_page.png
+│        └─ main_page.png
 ├─ lib
 │  ├─ __init__.py
 │  ├─ page
@@ -52,8 +52,8 @@ NeedAPP_DLAPP
 │  │  └─ video.py
 │  └─ package
 │     └─ wifi_detection.py
-├─ docs
-│  └─ README.md
+├── log/
+├─ docs/
 └─ data
    └─ data.json
 ```
@@ -64,7 +64,7 @@ git clone https://github.com/liyunhan177/NeedAPP_DLAPP.git
 ```
 ### 2. 安装所欲依赖
 ```bash
-pip install pywifi ttkbootstrap
+pip install pywifi ttkbootstrap logging
 ```
 ### 3. 运行项目
 ```bash
