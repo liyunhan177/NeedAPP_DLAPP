@@ -37,7 +37,8 @@ def check_wifi_status():
 def check_ethernet_status():
     """
     检测以太网连接状态
-    通过尝试连接到公共 DNS 服务器（8.8.8.8）来判断网络连通性
+    通过尝试连接到公共 DNS 服务器（8.8.8.8）来判断网络连通性，
+    并获取本机在局域网内的真实 IP 地址
     Returns:
         tuple: (是否连接，状态消息，连接信息字典)
             - 是否连接：bool 值，True 表示已连接，False 表示未连接
@@ -56,9 +57,8 @@ def check_ethernet_status():
         sock.close()
         
         if result == 0:
-            # 网络连接成功，获取本地 IP 地址
-            hostname = socket.gethostname()
-            local_ip = socket.gethostbyname(hostname)
+            # 网络连接成功，获取本机在局域网内的真实 IP 地址
+            local_ip = get_local_ip()
             return True, f"以太网已连接 (IP: {local_ip})", {"ip": local_ip}
         else:
             # 网络连接失败
@@ -66,6 +66,30 @@ def check_ethernet_status():
     except Exception as e:
         # 检测出错时返回错误信息
         return False, f"以太网检测出错：{str(e)}", None
+
+def get_local_ip():
+    """
+    获取本机在局域网内的真实 IP 地址
+    通过连接到外部服务器来获取本机在网络接口上的实际 IP
+    Returns:
+        str: 本机局域网 IP 地址，如果获取失败则返回 '127.0.0.1'
+    """
+    try:
+        # 创建一个 UDP socket，连接到外部服务器
+        # 这种方法可以获取到实际用于网络通信的 IP 地址
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        # 不需要真正发送数据，只需要建立路由
+        s.connect(('8.8.8.8', 80))
+        local_ip = s.getsockname()[0]  # 获取本机 IP
+        s.close()
+        return local_ip
+    except Exception:
+        # 如果失败，尝试备用方法
+        try:
+            hostname = socket.gethostname()
+            return socket.gethostbyname(hostname)
+        except Exception:
+            return '127.0.0.1'
 
 def get_network_info():
     """

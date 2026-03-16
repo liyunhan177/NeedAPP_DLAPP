@@ -1,30 +1,19 @@
-"""浏览器下载页面模块
-
-提供浏览器软件下载的图形用户界面
-"""
 import ttkbootstrap as tk
 from ttkbootstrap.constants import *
 import os
 import lib
 
-class Browser(tk.Window):
-    """浏览器下载窗口类，继承自 ttkbootstrap.Window
-    
-    用于显示浏览器软件相关的下载选项和功能
-    """
+class Settings(tk.Window):
     def __init__(self):
-        # 调用父类构造函数初始化窗口
         try:
-            lib.log_user_action("打开窗口", "浏览器下载窗口初始化", "BrowserPage")
+            lib.log_user_action("打开窗口", "设置窗口初始化", "BrowserPage")
             tk.Window.__init__(self,
                                themename="litera",
-                               title="浏览器下载",
-                               size=(300,300),
+                               title="设置",
+                               size=(300, 300),
                                minsize=(300, 300),  # 窗口的最小宽高
                                resizable=None)
-            
-            # 设置图标路径
-            # 获取项目根目录（向上三层）
+
             project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
             icon_path = os.path.join(project_root, "res", "IMG", "logo.ico")
             if os.path.exists(icon_path):
@@ -33,7 +22,7 @@ class Browser(tk.Window):
             else:
                 lib.log_warning("资源缺失", "图标文件不存在", "BrowserPage", icon_path)
                 print(f"警告：图标文件不存在 {icon_path}")
-            
+
             lib.log_app_event("窗口就绪", "浏览器下载窗口初始化完成", "BrowserPage")
         except Exception as e:
             lib.log_error("窗口初始化异常", str(e), "BrowserPage")
@@ -41,5 +30,5 @@ class Browser(tk.Window):
 
 
 if __name__ == '__main__':
-    browser = Browser()
-    browser.mainloop()
+    settings = Settings()
+    settings.mainloop()

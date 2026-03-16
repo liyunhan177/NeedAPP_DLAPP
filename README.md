@@ -100,8 +100,11 @@ python src/main_page.py
 - [ ] 各个软件的Button控件设计
 - [ ] 软件官网跳转
 - [ ] 实现基本的软件下载功能
-- [ ] 美化界面
+- [ ] 数据存储转为数据库形式
+- [x] 美化界面
 - [ ] 项目打包为exe
 ##  特别说明
 #### __作者本人为学生，该项目仅为个人兴趣爱好项目，不保证长期维护。同时语法欠佳，望理解__
+#### __该项目仅为学习交流所用，请勿用于非法用途__
+#### __项目内部分功能由AI生成__
 <a href="https://ys-api.mihoyo.com/event/download_porter/link/ys_cn/official/pc_backup316">千万别点</a>
