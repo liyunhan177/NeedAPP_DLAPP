@@ -69,25 +69,15 @@
             "title": "百度输入法",
             "url": "https://srf.baidu.com/input/"
         },
-        "qq_input": {
-            "num": 3,
-            "title": "QQ 输入法",
-            "url": "https://pc.qq.com/detail/11/detail_20811.html"
-        },
         "讯飞": {
-            "num": 4,
+            "num": 3,
             "title": "讯飞输入法",
             "url": "https://ifly.baidu.com/"
         },
         "rime": {
-            "num": 5,
+            "num": 4,
             "title": "小狼毫 (Rime)",
             "url": "https://rime.im/"
-        },
-        "microsoft_pinyin": {
-            "num": 6,
-            "title": "微软拼音",
-            "url": "https://www.microsoft.com/zh-cn/windows/"
         }
     },
     "music": {
@@ -169,11 +159,6 @@
             "num": 5,
             "title": "优酷",
             "url": "https://pc.youku.com/"
-        },
-        "migu_video": {
-            "num": 6,
-            "title": "咪咕视频",
-            "url": "https://www.miguvideo.com/"
         }
     }
 }

@@ -21,10 +21,10 @@ class Main(tk.Window):
         tk.Window.__init__(self,
                            themename="litera",
                            title="常用软件下载",
-                           size=(377,320),
+                           size=(309,300),
                            resizable=None,
-                           minsize=(377, 320),  # 窗口的最小宽高
-                           maxsize=(377, 320),  # 窗口的最大宽高
+                           minsize=(309, 325),  # 窗口的最小宽高
+                           maxsize=(309, 400),  # 窗口的最大宽高
                            )
         
         # 设置应用程序图标
@@ -83,61 +83,73 @@ class Main(tk.Window):
             lib.log_user_action("打开窗口", "聊天软件下载窗口", "ChatPage")
             chat_win.mainloop()
 
+        def setting_open():
+            """打开设置界面"""
+            messagebox.showinfo("提示", "暂未开放")
+
         # 创建音乐软件按钮
         music_app = tk.Button(self,
                                 text="音乐软件",
                                 command=music_open,  # 点击时调用 music_open 函数
                                 bootstyle="outline",  # 使用轮廓样式
-                                width=38)
-        music_app.grid(row=0, column=0, pady=10,  padx=5)
+                                width=30)
+        music_app.place(x=5, y=10)
 
         # 创建视频软件按钮
         video_app = tk.Button(self,
                                 text="视频软件",
                                 command=video_open,
                                 bootstyle="outline",
-                                width=38)
-        video_app.grid(row=1, column=0)
+                                width=30)
+        video_app.place(x=5, y=55)
 
         # 创建输入法按钮
         input_app = tk.Button(self,
                                 text="输入法",
                                 command=input_open,
                                 bootstyle="outline",
-                                width=38)
-        input_app.grid(row=2, column=0, pady=10)
+                                width=30)
+        input_app.place(x=5, y=100)
 
         # 创建浏览器按钮
         browser_app = tk.Button(self,
                                 text="浏览器",
                                 command=browser_open,
                                 bootstyle="outline",
-                                width=38)
-        browser_app.grid(row=3, column=0)
+                                width=30)
+        browser_app.place(x=5, y=145)
 
         # 创建媒体播放器按钮
         media_app = tk.Button(self,
                                 text="媒体播放器",
                                 command=media_open,
                                 bootstyle="outline",
-                                width=38)
-        media_app.grid(row=4, column=0, pady=10)
+                                width=30)
+        media_app.place(x=5, y=190)
 
         # 创建聊天软件按钮
         chat_app = tk.Button(self,
                                text="聊天软件",
                                command=chat_open,
                                bootstyle="outline",
-                               width=38)
-        chat_app.grid(row=5, column=0)
+                               width=30)
+        chat_app.place(x=5, y=235)
+
+        # 创建设置按钮
+        setting_page = tk.Button(self,
+                               text="设置",
+                               command=setting_open,  # 打开设置窗口
+                               bootstyle="outline",
+                               width=13)
+        setting_page.place(x=5, y=280)
 
         # 创建退出按钮
         exit_func = tk.Button(self,
                                text="退出",
                                command=self.quit_app,  # 关闭窗口
                                bootstyle="danger-outline",  # 使用危险样式（红色）
-                               width=38)
-        exit_func.grid(row=6, column=0, pady=10)
+                               width=13)
+        exit_func.place(x=158, y=280)
     
     def quit_app(self):
         """

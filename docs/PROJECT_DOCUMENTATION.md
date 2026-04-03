@@ -9,7 +9,7 @@ NeedAPP_DLAPP - 常用软件及工具下载器
 一个基于 Python 和 Tkinter 的图形界面应用程序，旨在为用户提供方便快捷的软件下载服务。用户可以通过直观的图形界面选择需要下载的软件类型，并直接从官方网站进行下载。
 
 ### 版本信息
-- **当前版本**: 0.2.2（详见 CHANGELOG_TEMPLATE.md）
+- **当前版本**: 0.4.0（详见 CHANGELOG_TEMPLATE.md）
 - **开发语言**: Python
 - **运行平台**: Windows
 - **GUI 框架**: ttkbootstrap (基于 Tkinter)

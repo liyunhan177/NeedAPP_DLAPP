@@ -1,6 +1,0 @@
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:76] - ============================================================
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:77] - 应用程序启动 - UserActions
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:78] - 日志文件：D:\Programming\PYTHON\NeedAPP_DLAPP\log\UserActions_20260316_225800.log
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:79] - 日志级别：INFO
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:80] - ============================================================
-2026-03-16 22:58:00 - UserActions - INFO - [logger.py:167] - [用户操作] 类型：打开窗口 | 描述：浏览器下载窗口初始化 | 页面：BrowserPage

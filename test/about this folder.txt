@@ -1,0 +1,16 @@
+This folder is about testing some new things in this project.There will maybe have
+some another program language files and some new functions that has never been seen
+in this project before.They are still in the testing phase, so there may be bugs.
+(Right.This folder is public. awa)
+
+tips:
+If u from another countries OTHER THAN CHINA, and u want to know what are these files
+about, u NEED READ this tips.
+If u from China (TW, HK and MAC are sections of PRC), u don't need to read this tips.
+如果你来自中国（港澳台是中华人民共和国的一部分），你不需要阅读这些提示。
+In this folder, some files are named using Chinese. So if you don't speak Chinese,
+you need to use some translation to understand them.
+
+这个文件夹是关于在这个项目中测试一些新东西的。可能会有一些其他编程语言的文件，以及一些在这个项目中从未
+出现过的新功能。它们还只是在测试阶段，所以可能会有bug。
+（是的。这个文件夹是公开的awa）

@@ -6,6 +6,7 @@ import ttkbootstrap as tk
 from ttkbootstrap.constants import *
 import os
 import lib
+import webbrowser as web
 
 class Browser(tk.Window):
     """浏览器下载窗口类，继承自 ttkbootstrap.Window
@@ -39,6 +40,60 @@ class Browser(tk.Window):
             lib.log_error("窗口初始化异常", str(e), "BrowserPage")
             raise
 
+        def open_edge():
+            web.open("https://www.microsoft.com/zh-cn/edge/download?form=MA13FJ")
+
+        def open_chrome():
+            web.open("https://www.google.cn/intl/zh-CN/chrome/")
+
+        def open_firefox():
+            web.open("https://www.mozilla.org/zh-CN/firefox/new/")
+
+        def open_tsz_security():
+            web.open("https://browser.360.cn/")
+
+        def open_tsz_extreme():
+            web.open("https://browser.360.cn/ee/")
+
+        def open_qq_browser():
+            web.open("https://browser.qq.com/")
+
+        edge_dl_btn = tk.Button(self,
+                                text="Edge",
+                                command=open_edge,
+                                width=150)
+        edge_dl_btn.pack(pady=10)
+
+        chrome_dl_btn = tk.Button(self,
+                                text="Chrome",
+                                command=open_chrome,
+                                width=150)
+        chrome_dl_btn.pack()
+
+        firefox_dl_btn = tk.Button(self,
+                                text="Firefox",
+                                command=open_firefox,
+                                width=150)
+        firefox_dl_btn.pack(pady=10)
+
+        # tsz为360的英文缩写
+        tsz_security_dl_btn = tk.Button(self,
+                                text="360安全浏览器",
+                                command=open_tsz_security,
+                                width=150)
+        tsz_security_dl_btn.pack()
+
+        tsz_extreme_dl_btn = tk.Button(self,
+                                text="360极速浏览器",
+                                command=open_tsz_extreme,
+                                width=150)
+        tsz_extreme_dl_btn.pack(pady=10)
+
+        qq_browser_dl_btn = tk.Button(self,
+                                      text="QQ浏览器",
+                                      command=open_qq_browser,
+                                      width=150)
+        qq_browser_dl_btn.pack()
 
 if __name__ == '__main__':
     browser = Browser()
