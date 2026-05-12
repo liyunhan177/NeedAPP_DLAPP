@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="完善日志功能，完善文档，添加新的测试文件">
-      <change afterPath="$PROJECT_DIR$/sq.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/page/PyQt_page/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/page/主题选择.py" afterDir="false" />
+    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/chat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/media.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/music.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/page/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/page/video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/NeedAPP_DLAPP_20260316_222712.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/NeedAPP_DLAPP_20260316_222713.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/NeedAPP_DLAPP_20260316_225801.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/UserActions_20260316_225800.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/about is folder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/about this folder.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/page/设置界面.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/page/设置界面.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,42 +68,43 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.browser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cmd_ver.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cmd_ver_start.executor&quot;: &quot;Run&quot;,
-    &quot;Python.input.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.music.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wifi_detection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.主题选择.executor&quot;: &quot;Run&quot;,
-    &quot;Python.窗口美化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.设置界面.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.GoLinterPluginOnboardingV2&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.analysis.ui.options.defaults&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/PYTHON/NeedAPP_DLAPP/docs&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.browser.executor": "Run",
+    "Python.cmd_ver.executor": "Run",
+    "Python.cmd_ver_start.executor": "Run",
+    "Python.input.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_page.executor": "Run",
+    "Python.music.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.wifi_detection.executor": "Run",
+    "Python.主题选择.executor": "Run",
+    "Python.窗口美化.executor": "Run",
+    "Python.设置界面.executor": "Run",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.analysis.ui.options.defaults": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/NeedAPP_DLAPP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\PYTHON\NeedAPP_DLAPP\docs" />
@@ -196,7 +181,8 @@
       <workItem from="1774687248599" duration="1395000" />
       <workItem from="1774697873199" duration="369000" />
       <workItem from="1775139740781" duration="113000" />
-      <workItem from="1775210301078" duration="7329000" />
+      <workItem from="1775210301078" duration="8122000" />
+      <workItem from="1778596496583" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -470,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773673267459</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件">
+      <option name="closed" value="true" />
+      <created>1775220152134</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1775220152134</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +503,8 @@
     <MESSAGE value="新增网络检测功能及更多文档" />
     <MESSAGE value="新增日志生成，完善文档" />
     <MESSAGE value="完善日志功能，完善文档，添加新的测试文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善日志功能，完善文档，添加新的测试文件" />
+    <MESSAGE value="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
