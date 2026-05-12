@@ -1,0 +1,9 @@
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:76] - ============================================================
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:77] - 应用程序启动 - UserActions
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:78] - 日志文件：D:\NeedAPP_DLAPP\log\NeedAPP_DLAPP_20260512_225244.log
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:79] - 日志级别：INFO
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:80] - ============================================================
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:145] - [用户点击] 页面：MainPage | 按钮：音乐软件 | 详情：点击打开音乐软件下载页面
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:167] - [用户操作] 类型：打开窗口 | 描述：音乐软件下载窗口初始化 | 页面：MusicPage
+2026-05-12 22:52:46 - UserActions - INFO - [logger.py:167] - [用户操作] 类型：打开窗口 | 描述：音乐软件下载窗口 | 页面：MusicPage
+2026-05-12 22:52:48 - UserActions - INFO - [logger.py:167] - [用户操作] 类型：点击下载 | 描述：打开 QQ 音乐下载页面 | 页面：MusicPage

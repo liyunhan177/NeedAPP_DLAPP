@@ -1,0 +1,16 @@
+2026-05-12 22:52:43 - NeedAPP_DLAPP - INFO - [logger.py:76] - ============================================================
+2026-05-12 22:52:43 - NeedAPP_DLAPP - INFO - [logger.py:77] - 应用程序启动 - NeedAPP_DLAPP
+2026-05-12 22:52:43 - NeedAPP_DLAPP - INFO - [logger.py:78] - 日志文件：D:\NeedAPP_DLAPP\log\NeedAPP_DLAPP_20260512_225243.log
+2026-05-12 22:52:43 - NeedAPP_DLAPP - INFO - [logger.py:79] - 日志级别：INFO
+2026-05-12 22:52:43 - NeedAPP_DLAPP - INFO - [logger.py:80] - ============================================================
+2026-05-12 22:52:44 - NeedAPP_DLAPP - INFO - [logger.py:183] - [应用事件] 类型：网络检测 | 描述：开始检测网络连接状态
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [main_page.py:185] - === 网络连接状态 ===
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [main_page.py:186] - WiFi: WiFi 未连接
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [main_page.py:187] - 以太网：以太网已连接 (IP: 192.168.31.89)
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [main_page.py:192] - 以太网 IP: 192.168.31.89
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [main_page.py:193] - 
+✓ 网络已连接，正在启动应用...
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [logger.py:183] - [应用事件] 类型：网络检测 | 描述：网络连接正常 | 详情：WiFi: WiFi 未连接, 以太网：以太网已连接 (IP: 192.168.31.89)
+2026-05-12 22:52:45 - NeedAPP_DLAPP - INFO - [logger.py:183] - [应用事件] 类型：应用启动 | 描述：主窗口初始化完成 | 详情：主题：litera
+2026-05-12 22:52:46 - NeedAPP_DLAPP - INFO - [logger.py:183] - [应用事件] 类型：资源加载 | 描述：图标加载成功 | 详情：MusicPage: D:\NeedAPP_DLAPP\res\IMG\logo.ico
+2026-05-12 22:52:46 - NeedAPP_DLAPP - INFO - [logger.py:183] - [应用事件] 类型：窗口就绪 | 描述：音乐软件下载窗口初始化完成 | 详情：MusicPage
