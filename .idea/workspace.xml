@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e386d91a-8a32-43e4-bab8-cf3c9f9e9fdf" name="更改" comment="添加.gitignore 移除build文件夹">
+      <change beforePath="$PROJECT_DIR$/build/main_page/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/main_page.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/warn-main_page.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main_page/xref-main_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Setup.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Untitled03.nsi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main_page.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +192,7 @@
       <workItem from="1774697873199" duration="369000" />
       <workItem from="1775139740781" duration="113000" />
       <workItem from="1775210301078" duration="8122000" />
-      <workItem from="1778596496583" duration="193000" />
+      <workItem from="1778596496583" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -464,7 +474,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775220152134</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="添加.gitignore">
+      <option name="closed" value="true" />
+      <created>1778596740709</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1778596740709</updated>
+    </task>
+    <task id="LOCAL-00037" summary="添加.gitignore">
+      <option name="closed" value="true" />
+      <created>1778596752263</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1778596752263</updated>
+    </task>
+    <task id="LOCAL-00038" summary="添加.gitignore 移除build文件夹">
+      <option name="closed" value="true" />
+      <created>1778596965229</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1778596965229</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +538,9 @@
     <MESSAGE value="新增日志生成，完善文档" />
     <MESSAGE value="完善日志功能，完善文档，添加新的测试文件" />
     <MESSAGE value="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成进入应用官网的功能，并添加临时的可执行exe文件,添加设置界面的测试文件" />
+    <MESSAGE value="添加.gitignore" />
+    <MESSAGE value="添加.gitignore 移除build文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加.gitignore 移除build文件夹" />
     <option name="LAST_CHUNK_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
