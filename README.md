@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Language-Python-blue" alt="">
     <img src="https://img.shields.io/badge/OS-Windows-blue" alt="">
     <img src="https://img.shields.io/github/stars/liyunhan177/NeedAPP_DLAPP.svg" alt="">
-    <img alt="" src="https://img.shields.io/badge/version-0.2.0-yellow">
+    <img alt="" src="https://img.shields.io/badge/version-0.4.0-yellow">
 </p>
 
 ## 目录
